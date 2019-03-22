@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/chrislusf/gleam/instruction"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/script"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/instruction"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/script"
+	"github.com/lovelly/gleam/util"
 )
 
 func (fc *Flow) NewStep() (step *Step) {

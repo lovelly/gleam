@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/pb"
 )
 
 /*

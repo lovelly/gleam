@@ -3,7 +3,7 @@ package flow
 import (
 	"fmt"
 
-	"github.com/chrislusf/gleam/instruction"
+	"github.com/lovelly/gleam/instruction"
 )
 
 type pair struct {

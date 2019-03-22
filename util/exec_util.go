@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/pb"
 )
 
 // all data passing through pipe are all (size, msgpack_encoded) tuples

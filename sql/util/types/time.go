@@ -24,7 +24,7 @@ import (
 	gotime "time"
 	"unicode"
 
-	"github.com/chrislusf/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/mysql"
 	"github.com/juju/errors"
 )
 

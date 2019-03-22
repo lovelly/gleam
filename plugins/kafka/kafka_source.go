@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/flow"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
 )
 
 type KafkaSource struct {

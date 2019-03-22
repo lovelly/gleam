@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/pb"
 )
 
 var (

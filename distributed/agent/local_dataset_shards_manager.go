@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/distributed/store"
+	"github.com/lovelly/gleam/distributed/store"
 )
 
 type LocalDatasetShardsManager struct {

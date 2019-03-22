@@ -1,8 +1,8 @@
 package parquet
 
 import (
-	"github.com/chrislusf/gleam/filesystem"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/filesystem"
+	"github.com/lovelly/gleam/util"
 	. "github.com/xitongsys/parquet-go/ParquetFile"
 	. "github.com/xitongsys/parquet-go/ParquetReader"
 	. "github.com/xitongsys/parquet-go/ParquetType"

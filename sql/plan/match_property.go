@@ -16,7 +16,7 @@ package plan
 import (
 	"math"
 
-	"github.com/chrislusf/gleam/sql/model"
+	"github.com/lovelly/gleam/sql/model"
 )
 
 // matchProperty implements PhysicalPlan matchProperty interface.

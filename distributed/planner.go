@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chrislusf/gleam/distributed/plan"
-	"github.com/chrislusf/gleam/flow"
+	"github.com/lovelly/gleam/distributed/plan"
+	"github.com/lovelly/gleam/flow"
 )
 
 type DistributedPlanner struct {

@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/chrislusf/gleam/distributed/driver/scheduler/market"
-	"github.com/chrislusf/gleam/distributed/plan"
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/distributed/driver/scheduler/market"
+	"github.com/lovelly/gleam/distributed/plan"
+	"github.com/lovelly/gleam/pb"
 )
 
 // Requirement is TaskGroup

@@ -8,9 +8,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/chrislusf/gleam/gio"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/gio"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
 )
 
 // Output concurrently collects outputs from previous step to the driver.

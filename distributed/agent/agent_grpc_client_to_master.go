@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"context"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
 )

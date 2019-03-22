@@ -3,7 +3,7 @@ package csv
 import (
 	"io"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/util"
 )
 
 type CsvFileReader struct {

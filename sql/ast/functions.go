@@ -14,8 +14,8 @@
 package ast
 
 import (
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/model"
+	"github.com/lovelly/gleam/sql/util/types"
 )
 
 var (

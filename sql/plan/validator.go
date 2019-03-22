@@ -18,11 +18,11 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/infoschema"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/parser"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/ast"
+	"github.com/lovelly/gleam/sql/infoschema"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/parser"
+	"github.com/lovelly/gleam/sql/util/types"
 )
 
 // Validate checkes whether the node is valid.

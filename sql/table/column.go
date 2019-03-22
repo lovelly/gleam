@@ -21,11 +21,11 @@ import (
 	"log"
 	"strings"
 
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/context"
+	"github.com/lovelly/gleam/sql/expression"
+	"github.com/lovelly/gleam/sql/model"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/util/types"
 	"github.com/juju/errors"
 )
 

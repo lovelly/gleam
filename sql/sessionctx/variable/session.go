@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/terror"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/terror"
 )
 
 const (

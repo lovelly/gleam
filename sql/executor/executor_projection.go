@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
+	"github.com/lovelly/gleam/flow"
+	"github.com/lovelly/gleam/sql/context"
+	"github.com/lovelly/gleam/sql/expression"
 )
 
 type ProjectionExec struct {

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
-	"github.com/chrislusf/gleam/util/on_interrupt"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
+	"github.com/lovelly/gleam/util/on_interrupt"
 )
 
 type FlowRunner interface {

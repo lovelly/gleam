@@ -3,7 +3,7 @@ package orc
 import (
 	"io"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/util"
 	"github.com/scritchley/orc"
 )
 

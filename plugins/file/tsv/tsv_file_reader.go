@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/util"
 )
 
 type TsvFileReader struct {

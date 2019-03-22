@@ -15,8 +15,8 @@ package distinct
 
 import (
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/util/codec"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/util/codec"
+	"github.com/lovelly/gleam/sql/util/types"
 )
 
 // CreateDistinctChecker creates a new distinct checker.

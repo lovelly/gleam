@@ -7,9 +7,9 @@ import (
 
 	"os"
 
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/gio"
-	"github.com/chrislusf/gleam/plugins/kafka"
+	"github.com/lovelly/gleam/flow"
+	"github.com/lovelly/gleam/gio"
+	"github.com/lovelly/gleam/plugins/kafka"
 )
 
 var (

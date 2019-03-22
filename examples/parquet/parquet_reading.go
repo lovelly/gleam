@@ -1,9 +1,9 @@
 package main
 
 import (
-	. "github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/gio"
-	"github.com/chrislusf/gleam/plugins/file"
+	. "github.com/lovelly/gleam/flow"
+	"github.com/lovelly/gleam/gio"
+	"github.com/lovelly/gleam/plugins/file"
 )
 
 func main() {

@@ -16,12 +16,12 @@ package plan
 import (
 	"fmt"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/ast"
+	"github.com/lovelly/gleam/sql/expression"
+	"github.com/lovelly/gleam/sql/model"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/sessionctx/variable"
+	"github.com/lovelly/gleam/sql/util/types"
 	"github.com/juju/errors"
 )
 

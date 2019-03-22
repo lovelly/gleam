@@ -7,8 +7,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

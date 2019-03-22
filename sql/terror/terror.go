@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/chrislusf/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/mysql"
 	"github.com/juju/errors"
 )
 

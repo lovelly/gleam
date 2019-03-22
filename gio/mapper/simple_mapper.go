@@ -3,7 +3,7 @@ package mapper
 import (
 	"strings"
 
-	"github.com/chrislusf/gleam/gio"
+	"github.com/lovelly/gleam/gio"
 )
 
 var (

@@ -14,11 +14,11 @@
 package infoschema
 
 import (
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/table"
-	_ "github.com/chrislusf/gleam/sql/table/tables"
-	"github.com/chrislusf/gleam/sql/terror"
+	"github.com/lovelly/gleam/sql/model"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/table"
+	_ "github.com/lovelly/gleam/sql/table/tables"
+	"github.com/lovelly/gleam/sql/terror"
 )
 
 var (

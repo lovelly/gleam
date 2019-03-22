@@ -23,8 +23,8 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/sessionctx/variable"
 )
 
 func truncateStr(str string, flen int) string {

@@ -3,7 +3,7 @@ package plan
 import (
 	"log"
 
-	"github.com/chrislusf/gleam/flow"
+	"github.com/lovelly/gleam/flow"
 )
 
 // group local tasks into one task group

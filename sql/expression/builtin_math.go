@@ -25,9 +25,9 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/context"
+	"github.com/lovelly/gleam/sql/parser/opcode"
+	"github.com/lovelly/gleam/sql/util/types"
 )
 
 var (

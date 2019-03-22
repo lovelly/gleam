@@ -3,12 +3,12 @@ package main
 import (
 	"flag"
 
-	"github.com/chrislusf/gleam/distributed"
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/gio"
-	"github.com/chrislusf/gleam/gio/mapper"
-	"github.com/chrislusf/gleam/gio/reducer"
-	"github.com/chrislusf/gleam/plugins/file"
+	"github.com/lovelly/gleam/distributed"
+	"github.com/lovelly/gleam/flow"
+	"github.com/lovelly/gleam/gio"
+	"github.com/lovelly/gleam/gio/mapper"
+	"github.com/lovelly/gleam/gio/reducer"
+	"github.com/lovelly/gleam/plugins/file"
 )
 
 var (

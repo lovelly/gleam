@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/util"
 )
 
 func (as *AgentServer) handleLocalInMemoryWriteConnection(r io.Reader, writerName, channelName string, readerCount int) {

@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"context"
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/pb"
 	"github.com/golang/protobuf/proto"
 	"github.com/hashicorp/golang-lru"
 )

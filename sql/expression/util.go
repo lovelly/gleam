@@ -17,9 +17,9 @@ import (
 	"unicode"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/ast"
+	"github.com/lovelly/gleam/sql/sessionctx/variable"
+	"github.com/lovelly/gleam/sql/util/types"
 )
 
 // ExtractColumns extracts all columns from an expression.

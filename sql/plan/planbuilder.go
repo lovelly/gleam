@@ -16,16 +16,16 @@ package plan
 import (
 	"fmt"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/infoschema"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/table"
-	"github.com/chrislusf/gleam/sql/terror"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/lovelly/gleam/sql/ast"
+	"github.com/lovelly/gleam/sql/context"
+	"github.com/lovelly/gleam/sql/expression"
+	"github.com/lovelly/gleam/sql/infoschema"
+	"github.com/lovelly/gleam/sql/model"
+	"github.com/lovelly/gleam/sql/mysql"
+	"github.com/lovelly/gleam/sql/parser/opcode"
+	"github.com/lovelly/gleam/sql/table"
+	"github.com/lovelly/gleam/sql/terror"
+	"github.com/lovelly/gleam/sql/util/types"
 	"github.com/juju/errors"
 )
 

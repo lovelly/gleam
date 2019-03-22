@@ -1,7 +1,7 @@
 package flow
 
 import (
-	"github.com/chrislusf/gleam/instruction"
+	"github.com/lovelly/gleam/instruction"
 )
 
 // Union union multiple Datasets as one Dataset

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/flow"
+	"github.com/lovelly/gleam/pb"
 )
 
 type TaskGroup struct {

@@ -1,7 +1,7 @@
 package flow
 
 import (
-	"github.com/chrislusf/gleam/instruction"
+	"github.com/lovelly/gleam/instruction"
 )
 
 // GroupBy e.g. GroupBy("", Field(1,2,3)) group data by field 1,2,3

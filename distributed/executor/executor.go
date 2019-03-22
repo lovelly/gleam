@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/distributed/netchan"
-	"github.com/chrislusf/gleam/instruction"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
-	"github.com/chrislusf/gleam/util/on_interrupt"
+	"github.com/lovelly/gleam/distributed/netchan"
+	"github.com/lovelly/gleam/instruction"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
+	"github.com/lovelly/gleam/util/on_interrupt"
 )
 
 type ExecutorOption struct {

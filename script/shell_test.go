@@ -9,8 +9,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/lovelly/gleam/pb"
+	"github.com/lovelly/gleam/util"
 )
 
 func TestShellCat(t *testing.T) {

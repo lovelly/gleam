@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/lovelly/gleam/pb"
 )
 
 type AgentInformation struct {
