@@ -3,6 +3,7 @@ package flow
 import (
 	"context"
 	"io"
+	"log"
 	"os"
 	"sync"
 	"time"
@@ -150,7 +151,10 @@ func (r *localDriver) runTask(wg *sync.WaitGroup, task *Task) {
 		wg.Add(1)
 		prevIsPipe := task.InputShards[0].Dataset.Step.IsPipe
 		task.Stat = &pb.InstructionStat{}
-		util.Execute(r.ctx, wg, task.Stat, task.Step.Name, execCommand, reader, writer, prevIsPipe, task.Step.IsPipe, true, os.Stderr)
+		err := util.Execute(r.ctx, wg, task.Stat, task.Step.Name, execCommand, reader, writer, prevIsPipe, task.Step.IsPipe, true, os.Stderr)
+		if err != nil {
+			log.Println(err.Error())
+		}
 	} else {
 		println("network type:", task.Step.NetworkType)
 	}

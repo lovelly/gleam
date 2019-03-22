@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os/exec"
+	"strings"
 	"sync"
 
 	"github.com/chrislusf/gleam/pb"
@@ -60,7 +61,7 @@ func Execute(ctx context.Context, executeWaitGroup *sync.WaitGroup, stat *pb.Ins
 	// println(name, "starting...", strings.Join(command.Args, ","))
 
 	if startError := command.Start(); startError != nil {
-		return fmt.Errorf("Start error %v: %v\n", startError, command)
+		return fmt.Errorf("Start error %v: %v\n, command", startError, strings.Join(command.Args, ","))
 	}
 
 	// fmt.Printf("%s Command is waiting..\n", name)
